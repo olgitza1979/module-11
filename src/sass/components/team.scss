@@ -1,0 +1,61 @@
+.team__text {
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+  line-height: 24px;
+  margin-bottom: 90px;
+}
+
+.team__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  list-style: none;
+  flex-basis: 380px;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.team__images {
+  display: block;
+  width: 380px;
+  height: 470px;
+  transition: linear;
+  transition-duration: 200ms;
+  margin-bottom: 30px;
+}
+
+.team__item {
+  position: relative;
+}
+
+.team__images:hover .overlay {
+  opacity: 1;
+}
+
+.team__images:hover {
+  transform: translate(-10px, -10px);
+  box-shadow: 10px 10px 0 $input-button-color;
+}
+
+.team__item h4 {
+  font-size: 14px;
+  font-family: $secondary-font;
+  color: $main-dark-color;
+  text-transform: uppercase;
+  line-height: 30px;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.team__item p {
+  font-size: 15px;
+  font-family: $basic-font;
+  font-weight: 300;
+  font-style: italic;
+  color: $main-gray-color;
+  text-align: center;
+  margin-bottom: 86px;
+}
+

@@ -1,0 +1,35 @@
+.site-navigation {
+  padding-top: 35px;
+  display: flex;
+  width: 492px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-end;
+
+}
+
+.site-navigation__item {
+  &:hover .site-navigation__link {
+    transition-duration: 200ms;
+    transition-timing-function: linear;
+    color: $header-hover-color;
+    border-bottom: 3px solid $header-hover-color;
+    padding-bottom: 12px;
+  }
+}
+
+.site-navigation__link {
+  font-family: $secondary-font;
+  font-weight: 400;
+  color: $main-white-color;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.site-navigation__icon {
+  fill: $main-white-color;
+
+  &:hover {
+    fill: $header-hover-color;
+  }
+}

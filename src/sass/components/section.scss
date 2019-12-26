@@ -1,0 +1,33 @@
+.section__title {
+  margin-bottom: 42px;
+  text-align: center;
+}
+
+.section__title--upper-line {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 24px;
+  line-height: 30px;
+  color: $section-title-color;
+  font-family: 'Kaushan Script';
+  font-weight: 400;
+}
+
+.section__title--under-line {
+  font-size: 30px;
+  line-height: 36px;
+  color: $section-title-color;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.section__title::after {
+  display: block;
+  content: url('/images/icons/inline.svg');
+  background-position: center;
+  width: 60px;
+  height: 3px;
+  margin: 40px auto 65px;
+}
+

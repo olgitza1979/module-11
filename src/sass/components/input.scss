@@ -1,0 +1,31 @@
+input::placeholder {
+  background-color: $main-white-color;
+  font-size: 15px;
+  font-family: $basic-font;
+  font-weight: 300;
+  font-style: italic;
+  border: none;
+}
+
+input {
+  height: 40px;
+  box-shadow: -1px -1px 1px $input-box-color, -1px 1px 1px $input-box-color;
+}
+
+input[type='email'] {
+  border: none;
+  width: 230px;
+}
+
+input[type='submit'] {
+  border: none;
+  width: 152px;
+  font-size: 14px;
+  font-family: $secondary-font;
+  color: $main-white-color;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  background-color: $input-button-color;
+}

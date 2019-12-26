@@ -1,0 +1,40 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 380px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  align-items: flex-start;
+  margin-bottom: 90px;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+}
+
+.card__images {
+  display: flex;
+  width: 80px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  justify-content: center;
+}
+
+.card__title {
+  display: flex;
+  align-items: flex-start;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: $section-title-color;
+  font-family: $secondary-font;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.card__text {
+  display: flex;
+  align-items: flex-end;
+}

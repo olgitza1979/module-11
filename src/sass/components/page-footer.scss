@@ -1,0 +1,26 @@
+.page-footer {
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  font-family: $secondary-font;
+  align-items: center;
+  font-size: 14px;
+  color: $main-dark-color;
+  box-shadow: 0 -1px 0 $input-box-color;
+}
+
+.page-footer__link {
+  color: $overlay-border-color;
+}
+
+.footer-form {
+  max-width: 378px;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.form-flex {
+  display: flex;
+  justify-content: flex-end;
+}
+
